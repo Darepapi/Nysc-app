@@ -2,7 +2,7 @@ print("Hello ! \n Welcome to the Official page of NYSC.")
 
 x=int(input("If you are here for Mobilization, Please press 1 or enter  2 to apply for Exemption Certificate"))
 while x!=1 and x!=2:
-    print("You just entered an incorrect value! ")
+    print("You just entered an incorrect value! \nPlease enter a correct value!")
     x=int(input("Press 1 for NYSC or 2 for Exemption Certificate.."))
 if x==1:
     print("N.Y.S.C MOBILIZATION")
